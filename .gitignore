@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+venv/
+.env
+
+# Whisper模型（太大，不提交）
+backend/models/
+
+# 上传和结果
+uploads/*
+results/*
+!uploads/.gitkeep
+!results/.gitkeep
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wav
+
+# 历史记录
+history.json
+
+# Node
+node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
